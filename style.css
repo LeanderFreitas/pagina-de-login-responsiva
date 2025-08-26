@@ -40,17 +40,12 @@ h1{
 form{
     text-align: center;
     padding: 190px 90px;
-   
-  
 }
 p{
     color: white;
     padding: 10px;
     margin-bottom: 6px;
     border-radius: 30px 1px;  
-    
-     
-    
 }
 .senha{
     background-color: white;
@@ -75,7 +70,4 @@ p{
     border-radius: 3px;
     padding: 3px 7px;
     margin: 10px;
-}
-input{
-
 }
