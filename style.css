@@ -3,9 +3,17 @@ padding: 0px;
 margin: 0px;
 box-sizing: border-box;
 }
-
+body{
+    background-image: url(imgaem/imagem\ de\ fundo\ 002.jpg);
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
 main {
-    background-image: url();
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -14,7 +22,60 @@ main {
     align-items: center;
 }
 section{
-    background-color: lightskyblue;
+    background: linear-gradient(to right, #333453, #7E5F7E);
+    border-radius: 20px 10px;
     height: 500px;
-    width: 500px;
+    width: 500px; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.425);
+}
+h1{
+    position: absolute;
+    padding: 30px;
+    margin:50px;
+    margin-left: 140px;
+    background: linear-gradient(to right );
+    font-size: 2em;
+    font-family: ;
+}
+form{
+    text-align: center;
+    padding: 190px 90px;
+   
+  
+}
+p{
+    color: white;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 30px 1px;  
+    
+     
+    
+}
+.senha{
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+    background: linear-gradient(to right, #333453, #a07376);
+}
+.email{
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+    background: linear-gradient(to right, #333453, #a07376);
+    
+}
+.dados{
+   color: #333453;
+}
+.submit{
+    border-radius: 3px;
+    padding: 3px 7px;
+    margin: 10px;
+}
+.reset{
+    border-radius: 3px;
+    padding: 3px 7px;
+    margin: 10px;
+}
+input{
+
 }
