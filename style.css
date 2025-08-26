@@ -32,10 +32,15 @@ h1{
     position: absolute;
     padding: 30px;
     margin:50px;
-    margin-left: 140px;
+    margin-left: 135px;
     background: linear-gradient(to right );
     font-size: 2em;
-    font-family: ;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: 100;
+
 }
 form{
     text-align: center;
